@@ -51,22 +51,22 @@ good-react-skills/
 
 ```bash
 # Install globally
-npm install -g @good-react-skills/agent-skills
+npm install -g good-react-skills
 
 # Or use npx (no installation needed)
-npx @good-react-skills/agent-skills
+npx good-react-skills
 
 # Install for specific agent
-npx @good-react-skills/agent-skills cursor
-npx @good-react-skills/agent-skills windsurf
-npx @good-react-skills/agent-skills claude
+npx good-react-skills cursor
+npx good-react-skills windsurf
+npx good-react-skills claude
 ```
 
 ### Option 2: GitHub
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/good-react-skills.git
+git clone https://github.com/zz41354899/good-react-skills.git
 cd good-react-skills
 
 # Run installation
@@ -229,7 +229,7 @@ This skill package is compatible with major AI coding agents:
 #### For Cursor Users
 ```bash
 # NPM
-npx @good-react-skills/agent-skills cursor
+npx good-react-skills cursor
 
 # GitHub
 node .agents/install.js cursor
@@ -242,7 +242,7 @@ node .agents/install.js cursor
 #### For Windsurf Users
 ```bash
 # NPM
-npx @good-react-skills/agent-skills windsurf
+npx good-react-skills windsurf
 
 # GitHub
 node .agents/install.js windsurf
@@ -263,7 +263,7 @@ node .agents/install.js windsurf
 #### For Claude Code Users
 ```bash
 # NPM
-npx @good-react-skills/agent-skills claude
+npx good-react-skills claude
 
 # GitHub
 node .agents/install.js claude
@@ -276,7 +276,7 @@ node .agents/install.js claude
 #### Install All Agents
 ```bash
 # NPM
-npx @good-react-skills/agent-skills
+npx good-react-skills
 
 # GitHub
 node .agents/install.js
