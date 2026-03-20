@@ -1,6 +1,6 @@
 {
   "name": "good-react-skills",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React 19.2, TypeScript 5.x, and Next.js 16.2 best practices for AI agents. Supports Traditional Chinese (正體中文) interactions.",
   "main": "install.js",
   "bin": {
@@ -40,7 +40,7 @@
   "files": [
     "skills/",
     "lib/",
-    ".agentskills/",
+    ".agentskills-template/",
     "install.js",
     "README.md",
     "LICENSE"

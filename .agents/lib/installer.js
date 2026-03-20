@@ -138,9 +138,9 @@ class SkillInstaller {
     // Create directory
     fs.mkdirSync(this.configDir, { recursive: true });
     
-    // Try to copy from package first
-    const packageRoot = path.join(__dirname, '..', '..');
-    const sourceDir = path.join(packageRoot, '.agentskills');
+    // Try to copy from package template directory
+    const packageRoot = path.join(__dirname, '..');
+    const sourceDir = path.join(packageRoot, '.agentskills-template');
     
     if (fs.existsSync(sourceDir) && sourceDir !== this.configDir) {
       // Copy from package (NPM scenario)
