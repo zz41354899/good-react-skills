@@ -432,9 +432,13 @@ class SkillInstaller {
       console.log('      1. Cursor will auto-detect .agentskills/cursor.json');
       console.log('      2. Skills available in React/TypeScript files');
       console.log('      3. Use slash commands:');
-      console.log('         /check-naming, /form-validation, /should-use-effect');
-      console.log('         /state-management, /data-fetching, /server-or-client');
-      console.log('         /typescript-error');
+      console.log('         - /check-naming - Naming conventions');
+      console.log('         - /should-use-effect - useEffect decision tree');
+      console.log('         - /state-management - State management guide');
+      console.log('         - /form-validation - Form validation patterns');
+      console.log('         - /data-fetching - Data fetching best practices');
+      console.log('         - /server-or-client - Server/Client component decision');
+      console.log('         - /typescript-error - TypeScript error solutions');
       console.log('      4. Read .agents/skills/CONSTITUTION.md for complete guide\n');
     }
 
