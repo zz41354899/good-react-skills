@@ -1,3 +1,8 @@
+---
+name: state-management
+description: State management guide
+---
+
 # State Management Skill
 
 **Command**: `/state-management`  

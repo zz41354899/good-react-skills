@@ -1,3 +1,8 @@
+---
+name: form-validation
+description: Form validation patterns
+---
+
 # Form Validation Skill
 
 **Command**: `/form-validation`  

@@ -1,3 +1,8 @@
+---
+name: typescript-error
+description: TypeScript error solutions
+---
+
 # TypeScript Error Solutions
 
 **Command**: `/typescript-error`  

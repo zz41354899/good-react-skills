@@ -1,3 +1,8 @@
+---
+name: check-naming
+description: Naming conventions
+---
+
 # Naming Conventions Skill
 
 **Command**: `/check-naming`  

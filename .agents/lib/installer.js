@@ -272,24 +272,69 @@ class SkillInstaller {
       fs.mkdirSync(workflowsDir, { recursive: true });
     }
 
-    // Workflow mappings: source skill -> destination workflow
+    // Workflow mappings with descriptions
     const workflows = [
-      { source: 'check-naming/SKILL.md', dest: 'check-naming.md' },
-      { source: 'form-validation/SKILL.md', dest: 'form-validation.md' },
-      { source: 'should-use-effect/SKILL.md', dest: 'should-use-effect.md' },
-      { source: 'state-management/SKILL.md', dest: 'state-management.md' },
-      { source: 'data-fetching/SKILL.md', dest: 'data-fetching.md' },
-      { source: 'server-or-client/SKILL.md', dest: 'server-or-client.md' },
-      { source: 'typescript-error/SKILL.md', dest: 'typescript-error.md' },
+      { 
+        source: 'check-naming/SKILL.md', 
+        dest: 'check-naming.md',
+        name: 'check-naming',
+        description: 'Naming conventions'
+      },
+      { 
+        source: 'form-validation/SKILL.md', 
+        dest: 'form-validation.md',
+        name: 'form-validation',
+        description: 'Form validation patterns'
+      },
+      { 
+        source: 'should-use-effect/SKILL.md', 
+        dest: 'should-use-effect.md',
+        name: 'should-use-effect',
+        description: 'useEffect decision tree'
+      },
+      { 
+        source: 'state-management/SKILL.md', 
+        dest: 'state-management.md',
+        name: 'state-management',
+        description: 'State management guide'
+      },
+      { 
+        source: 'data-fetching/SKILL.md', 
+        dest: 'data-fetching.md',
+        name: 'data-fetching',
+        description: 'Data fetching best practices'
+      },
+      { 
+        source: 'server-or-client/SKILL.md', 
+        dest: 'server-or-client.md',
+        name: 'server-or-client',
+        description: 'Server/Client component decision'
+      },
+      { 
+        source: 'typescript-error/SKILL.md', 
+        dest: 'typescript-error.md',
+        name: 'typescript-error',
+        description: 'TypeScript error solutions'
+      },
     ];
 
-    // Copy each workflow file
-    workflows.forEach(({ source, dest }) => {
+    // Generate each workflow file with frontmatter
+    workflows.forEach(({ source, dest, name, description }) => {
       const sourcePath = path.join(this.skillsDir, source);
       const destPath = path.join(workflowsDir, dest);
       
       if (fs.existsSync(sourcePath)) {
-        fs.copyFileSync(sourcePath, destPath);
+        const content = fs.readFileSync(sourcePath, 'utf8');
+        
+        // Add frontmatter with description
+        const frontmatter = `---
+name: ${name}
+description: ${description}
+---
+
+`;
+        const workflowContent = frontmatter + content;
+        fs.writeFileSync(destPath, workflowContent);
       }
     });
   }

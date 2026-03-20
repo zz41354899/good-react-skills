@@ -1,3 +1,8 @@
+# Next.js---
+name: server-or-client
+description: Server/Client component decision
+---
+
 # Next.js Server/Client Component Decision
 
 **Command**: `/server-or-client`  

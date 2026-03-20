@@ -1,3 +1,8 @@
+---
+name: should-use-effect
+description: useEffect decision tree
+---
+
 # useEffect Decision Skill
 
 **Command**: `/should-use-effect`  

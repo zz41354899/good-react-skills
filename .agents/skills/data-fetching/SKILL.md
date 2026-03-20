@@ -1,3 +1,8 @@
+---
+name: data-fetching
+description: Data fetching best practices
+---
+
 # Data Fetching Skill
 
 **Command**: `/data-fetching`  
