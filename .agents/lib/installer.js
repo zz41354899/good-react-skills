@@ -274,13 +274,13 @@ class SkillInstaller {
 
     // Workflow mappings: source skill -> destination workflow
     const workflows = [
-      { source: 'naming/SKILL.md', dest: 'check-naming.md' },
-      { source: 'forms/SKILL.md', dest: 'form-validation.md' },
-      { source: 'useeffect/SKILL.md', dest: 'should-use-effect.md' },
+      { source: 'check-naming/SKILL.md', dest: 'check-naming.md' },
+      { source: 'form-validation/SKILL.md', dest: 'form-validation.md' },
+      { source: 'should-use-effect/SKILL.md', dest: 'should-use-effect.md' },
       { source: 'state-management/SKILL.md', dest: 'state-management.md' },
       { source: 'data-fetching/SKILL.md', dest: 'data-fetching.md' },
-      { source: 'nextjs/SKILL.md', dest: 'server-or-client.md' },
-      { source: 'typescript/SKILL.md', dest: 'typescript-error.md' },
+      { source: 'server-or-client/SKILL.md', dest: 'server-or-client.md' },
+      { source: 'typescript-error/SKILL.md', dest: 'typescript-error.md' },
     ];
 
     // Copy each workflow file
