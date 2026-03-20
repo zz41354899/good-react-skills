@@ -351,11 +351,12 @@ class SkillInstaller {
 
     const windsurfWorkflowsDir = path.join(__dirname, '..', '..', '.windsurf', 'workflows');
 
-    // Common checks for all agents
-    const commonChecks = [
-      { name: 'Skills directory', path: this.skillsDir, agents: ['all'] },
-      { name: 'CONSTITUTION.md', path: path.join(this.skillsDir, 'CONSTITUTION.md'), agents: ['all'] },
-      { name: 'SKILL-QUICK-REFERENCE.md', path: path.join(this.skillsDir, 'SKILL-QUICK-REFERENCE.md'), agents: ['all'] },
+    // Common checks for all agents - check in user's project
+    const userSkillsDir = path.join(process.cwd(), '.agents', 'skills');
+    const checks = [
+      { name: 'Skills directory', path: userSkillsDir },
+      { name: 'CONSTITUTION.md', path: path.join(userSkillsDir, 'CONSTITUTION.md') },
+      { name: 'SKILL-QUICK-REFERENCE.md', path: path.join(userSkillsDir, 'SKILL-QUICK-REFERENCE.md') },
     ];
 
     // Agent-specific checks
