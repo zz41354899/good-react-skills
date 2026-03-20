@@ -622,14 +622,9 @@ src/
 3. Review [coding-conventions.md](./references/coding-conventions.md) - Standards
 
 ### Level 2: Advanced Patterns
-1. [react-patterns.md](./references/react-patterns.md) - Design patterns
-2. [typescript-tips.md](./references/typescript-tips.md) - Type techniques
-3. [performance-optimization.md](./references/performance-optimization.md) - Optimization
-
-### Level 3: Modern Features
-1. [react-19-features.md](./references/react-19-features.md) - React 19 APIs
-2. [nextjs-16-features.md](./references/nextjs-16-features.md) - Next.js 16
-3. [testing-guide.md](./references/testing-guide.md) - Testing strategies
+1. [examples.md](./references/examples.md) - Ready-to-use code examples
+2. [react-19-features.md](./references/react-19-features.md) - React 19 new APIs
+3. [nextjs-16-features.md](./references/nextjs-16-features.md) - Next.js 16 features
 
 ---
 
