@@ -109,8 +109,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on adding new skills.
 MIT License - See [LICENSE](./LICENSE) file.
 
 ## 🔗 Links
-
-- [Main Documentation](../README.md)
 - [NPM Package](https://www.npmjs.com/package/good-react-skills)
 - [GitHub Repository](https://github.com/zz41354899/good-react-skills)
 
