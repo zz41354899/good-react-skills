@@ -958,7 +958,7 @@ Before claiming mastery, verify you can:
 
 **If you can check all boxes**: You've successfully learned this skill! 🎉
 
-**If not**: Return to [AI-LEARNING-GUIDE.md](./AI-LEARNING-GUIDE.md) and focus on weak areas.
+**If not**: Review [CONSTITUTION.md](./CONSTITUTION.md) and focus on weak areas.
 
 ---
 
