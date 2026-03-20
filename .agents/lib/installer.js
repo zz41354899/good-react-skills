@@ -9,10 +9,9 @@ const { SkillCLI } = require('./cli');
 
 class SkillInstaller {
   constructor() {
-    this.cli = new SkillCLI();
     this.skillsDir = path.join(__dirname, '..', 'skills');
-    // Point to user's current working directory, not package directory
-    this.configDir = path.join(process.cwd(), '.agentskills');
+    this.configDir = path.join(__dirname, '..', '..', '.agentskills');
+    this.cli = new SkillCLI(this.skillsDir);
   }
 
   /**
@@ -212,7 +211,8 @@ class SkillInstaller {
    * Create Windsurf workflows directory and copy skill files
    */
   createWindsurfWorkflows() {
-    const workflowsDir = path.join(__dirname, '..', '..', '.windsurf', 'workflows');
+    // Point to user's current working directory
+    const workflowsDir = path.join(process.cwd(), '.windsurf', 'workflows');
     
     // Create directory if it doesn't exist
     if (!fs.existsSync(workflowsDir)) {
@@ -419,4 +419,5 @@ class SkillInstaller {
   }
 }
 
+module.exports = { SkillInstaller };
 module.exports = { SkillInstaller };
