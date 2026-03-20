@@ -44,9 +44,7 @@ Use slash commands to access skills:
 │   └── nextjs/            # Next.js patterns
 ├── lib/                   # Utility libraries
 │   ├── cli.js            # Command-line interface
-│   ├── display.js        # Display formatting
-│   ├── utils.js          # Utility functions
-│   └── workflow.js       # Workflow management
+│   └── installer.js      # Installation logic
 ├── CONTRIBUTING.md        # Contribution guide
 ├── LICENSE               # MIT License
 └── README.md             # This file
@@ -89,11 +87,11 @@ Reference skills in your Claude configuration.
 
 ## 📚 Full Documentation
 
-Complete documentation available in parent directory:
-- `../CONSTITUTION.md` - Complete reference
-- `../SKILL.md` - Quick reference
-- `../AI-LEARNING-GUIDE.md` - Learning path
-- `../references/` - Detailed guides
+Complete documentation available in skills directory:
+- `skills/CONSTITUTION.md` - Complete reference
+- `skills/SKILL-QUICK-REFERENCE.md` - Quick reference
+- `skills/SKILL.md` - Skill overview
+- `skills/references/` - Code examples and guides
 
 ## 🔧 Technologies
 
@@ -113,8 +111,8 @@ MIT License - See [LICENSE](./LICENSE) file.
 ## 🔗 Links
 
 - [Main Documentation](../README.md)
-- [Agent Skills Spec](https://agentskills.io)
-- [GitHub Repository](#)
+- [NPM Package](https://www.npmjs.com/package/good-react-skills)
+- [GitHub Repository](https://github.com/zz41354899/good-react-skills)
 
 ---
 
