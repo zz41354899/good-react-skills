@@ -92,19 +92,18 @@ node .agents/install.js help
 
 ### For AI Agents
 
-1. **Start Learning**: Read [`.agents/skills/AI-LEARNING-GUIDE.md`](./.agents/skills/AI-LEARNING-GUIDE.md) for the complete 5-week learning path
+1. **Complete Guide**: Consult [`.agents/skills/CONSTITUTION.md`](./.agents/skills/CONSTITUTION.md) for comprehensive reference
 2. **Quick Reference**: Use [`.agents/skills/SKILL-QUICK-REFERENCE.md`](./.agents/skills/SKILL-QUICK-REFERENCE.md) for rapid lookup
-3. **Complete Guide**: Consult [`.agents/skills/CONSTITUTION.md`](./.agents/skills/CONSTITUTION.md) for comprehensive reference
-4. **Find Topics**: Use [`.agents/skills/INDEX.md`](./.agents/skills/INDEX.md) to locate specific topics
-5. **Copy Code**: Get ready-to-use examples from [`.agents/skills/references/examples.md`](./.agents/skills/references/examples.md)
-6. **Use Slash Commands**: Type `/check-naming`, `/form-validation`, etc. for instant access
+3. **Skill Overview**: Check [`.agents/skills/SKILL.md`](./.agents/skills/SKILL.md) for main concepts
+4. **Copy Code**: Get ready-to-use examples from [`.agents/skills/references/examples.md`](./.agents/skills/references/examples.md)
+5. **Use Slash Commands**: Type `/check-naming`, `/form-validation`, etc. for instant access
 
 ### For Developers
 
 1. **Complete reference** → Read [`.agents/skills/CONSTITUTION.md`](./.agents/skills/CONSTITUTION.md)
 2. **Quick answer** → Check [`.agents/skills/SKILL-QUICK-REFERENCE.md`](./.agents/skills/SKILL-QUICK-REFERENCE.md)
 3. **Code examples** → Browse [`.agents/skills/references/examples.md`](./.agents/skills/references/examples.md)
-4. **Configure your agent** → See [`.agentskills/README.md`](./.agentskills/README.md)
+4. **Skills overview** → See [`.agents/README.md`](./.agents/README.md)
 
 ### Deep Dive
 
