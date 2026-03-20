@@ -9,9 +9,10 @@ const { SkillCLI } = require('./cli');
 
 class SkillInstaller {
   constructor() {
+    this.cli = new SkillCLI();
     this.skillsDir = path.join(__dirname, '..', 'skills');
-    this.configDir = path.join(__dirname, '..', '..', '.agentskills');
-    this.cli = new SkillCLI(this.skillsDir);
+    // Point to user's current working directory, not package directory
+    this.configDir = path.join(process.cwd(), '.agentskills');
   }
 
   /**

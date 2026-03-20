@@ -319,9 +319,7 @@ Quick access to skills via slash commands:
 /typescript-error        - TypeScript 錯誤
 ```
 
-See [`.agents/README.md`](./.agents/README.md) for complete skill list.
-
-See [`.agentskills/README.md`](./.agentskills/README.md) for complete integration documentation.
+See [`.agents/README.md`](./.agents/README.md) for complete skill list and integration documentation.
 
 ---
 
