@@ -1,0 +1,47 @@
+{
+  "name": "@good-react-skills/agent-skills",
+  "version": "1.0.0",
+  "description": "React 19.2, TypeScript 5.x, and Next.js 16.2 best practices for AI agents. Supports Traditional Chinese (正體中文) interactions.",
+  "main": "install.js",
+  "bin": {
+    "good-react-skills": "./install.js",
+    "react-skills": "./install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js",
+    "install": "node install.js",
+    "list": "node install.js list",
+    "verify": "node install.js"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "nextjs",
+    "ai-agent",
+    "cursor",
+    "windsurf",
+    "claude",
+    "skills",
+    "best-practices"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/good-react-skills.git"
+  },
+  "homepage": "https://github.com/yourusername/good-react-skills#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/good-react-skills/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "skills/",
+    "lib/",
+    "install.js",
+    "README.md",
+    "LICENSE"
+  ]
+}

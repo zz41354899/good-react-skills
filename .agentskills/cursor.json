@@ -1,0 +1,31 @@
+{
+  "name": "Good React Skills",
+  "version": "1.0.0",
+  "type": "skill",
+  "skillsDirectory": ".agents/skills",
+  "activation": {
+    "keywords": [
+      "react",
+      "typescript",
+      "nextjs",
+      "component",
+      "hook",
+      "validation",
+      "form",
+      "state management"
+    ],
+    "filePatterns": [
+      "**/*.tsx",
+      "**/*.ts",
+      "**/*.jsx",
+      "**/*.js"
+    ]
+  },
+  "instructions": {
+    "primary": "Follow the principles and patterns defined in CONSTITUTION.md",
+    "onUncertainty": "When uncertain about any React concept, consult the documentation using the uncertainty protocol defined in CONSTITUTION.md",
+    "language": "Respond in Traditional Chinese (正體中文) when user communicates in that language, even though documentation is in English",
+    "validation": "Before providing answers, verify against SKILL.md checkpoints and cite sources",
+    "skillAccess": "Use slash commands to access specific skills from .agents/skills/ directory"
+  }
+}

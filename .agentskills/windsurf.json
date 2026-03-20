@@ -1,0 +1,24 @@
+{
+  "name": "Good React Skills",
+  "version": "1.0.0",
+  "type": "skill",
+  "skillsDirectory": ".agents/skills",
+  "workflows": {
+    "enabled": true,
+    "directory": ".windsurf/workflows",
+    "commands": {
+      "/check-naming": "check-naming.md",
+      "/form-validation": "form-validation.md",
+      "/should-use-effect": "should-use-effect.md",
+      "/state-management": "state-management.md",
+      "/data-fetching": "data-fetching.md",
+      "/server-or-client": "server-or-client.md",
+      "/typescript-error": "typescript-error.md"
+    }
+  },
+  "language": {
+    "documentation": "English",
+    "userInteraction": "Traditional Chinese (正體中文) + English",
+    "autoDetect": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "skill_name": "good-react-skills",
+  "skill_version": "1.0.0",
+  "skill_type": "comprehensive-knowledge-base",
+  "skills_directory": ".agents/skills",
+  "language": {
+    "documentation": "English",
+    "userInteraction": "Traditional Chinese (正體中文) + English",
+    "autoDetect": true
+  }
+}
