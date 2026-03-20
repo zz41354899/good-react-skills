@@ -20,11 +20,14 @@ class SkillInstaller {
   async install(agent = 'all') {
     console.log('🚀 Installing Good React Skills...\n');
 
-    // Check if skills directory exists
+    // Check if skills directory exists in package
     if (!this.checkSkillsDirectory()) {
-      console.error('❌ Error: Skills directory not found');
+      console.error('❌ Error: Skills directory not found in package');
       process.exit(1);
     }
+
+    // Copy skills directory to user's project
+    this.copySkillsToProject();
 
     // Check if config directory exists, create if not
     if (!this.checkConfigDirectory()) {
@@ -76,6 +79,56 @@ class SkillInstaller {
    */
   checkConfigDirectory() {
     return fs.existsSync(this.configDir);
+  }
+
+  /**
+   * Copy skills directory to user's project
+   */
+  copySkillsToProject() {
+    const userSkillsDir = path.join(process.cwd(), '.agents', 'skills');
+    
+    // Skip if already exists
+    if (fs.existsSync(userSkillsDir)) {
+      return;
+    }
+
+    console.log('📚 Copying skills to your project...');
+    
+    // Create .agents directory if needed
+    const userAgentsDir = path.join(process.cwd(), '.agents');
+    if (!fs.existsSync(userAgentsDir)) {
+      fs.mkdirSync(userAgentsDir, { recursive: true });
+    }
+
+    // Copy entire skills directory
+    this.copyDirectory(this.skillsDir, userSkillsDir);
+    console.log('   ✅ Skills copied successfully\n');
+  }
+
+  /**
+   * Recursively copy directory
+   */
+  copyDirectory(src, dest) {
+    // Create destination directory
+    if (!fs.existsSync(dest)) {
+      fs.mkdirSync(dest, { recursive: true });
+    }
+
+    // Read source directory
+    const entries = fs.readdirSync(src, { withFileTypes: true });
+
+    for (const entry of entries) {
+      const srcPath = path.join(src, entry.name);
+      const destPath = path.join(dest, entry.name);
+
+      if (entry.isDirectory()) {
+        // Recursively copy subdirectory
+        this.copyDirectory(srcPath, destPath);
+      } else {
+        // Copy file
+        fs.copyFileSync(srcPath, destPath);
+      }
+    }
   }
 
   /**
