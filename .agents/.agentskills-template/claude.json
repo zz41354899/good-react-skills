@@ -7,17 +7,17 @@
     {
       "command": "/check-naming",
       "description": "Naming conventions",
-      "skillPath": "naming/SKILL.md"
+      "skillPath": "check-naming/SKILL.md"
     },
     {
       "command": "/form-validation",
       "description": "Form validation patterns",
-      "skillPath": "forms/SKILL.md"
+      "skillPath": "form-validation/SKILL.md"
     },
     {
       "command": "/should-use-effect",
       "description": "useEffect decision tree",
-      "skillPath": "useeffect/SKILL.md"
+      "skillPath": "should-use-effect/SKILL.md"
     },
     {
       "command": "/state-management",
@@ -32,12 +32,12 @@
     {
       "command": "/server-or-client",
       "description": "Server/Client component decision",
-      "skillPath": "nextjs/SKILL.md"
+      "skillPath": "server-or-client/SKILL.md"
     },
     {
       "command": "/typescript-error",
       "description": "TypeScript error solutions",
-      "skillPath": "typescript/SKILL.md"
+      "skillPath": "typescript-error/SKILL.md"
     }
   ],
   "language": {

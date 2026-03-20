@@ -610,7 +610,14 @@ src/
 ## 📚 Learning Path
 
 ### Level 1: Fundamentals
-1. Read [SKILL.md](./SKILL.md) - Core principles
+1. Study the 7 core skills:
+   - [Naming Conventions](./check-naming/SKILL.md) - `/check-naming`
+   - [Form Validation](./form-validation/SKILL.md) - `/form-validation`
+   - [useEffect Decision Tree](./should-use-effect/SKILL.md) - `/should-use-effect`
+   - [State Management](./state-management/SKILL.md) - `/state-management`
+   - [Data Fetching](./data-fetching/SKILL.md) - `/data-fetching`
+   - [Server/Client Components](./server-or-client/SKILL.md) - `/server-or-client`
+   - [TypeScript Errors](./typescript-error/SKILL.md) - `/typescript-error`
 2. Study [examples.md](./references/examples.md) - Basic patterns
 3. Review [coding-conventions.md](./references/coding-conventions.md) - Standards
 
@@ -731,7 +738,7 @@ Do I know the answer with 100% certainty?
 - ✅ Include code example if available
 
 **Example Good Response**:
-> "According to SKILL.md Section 2, you should avoid useEffect here. Instead, calculate during render: `const filtered = items.filter(i => i.active)`. See examples.md#avoiding-effects for more patterns."
+> "According to /should-use-effect skill, you should avoid useEffect here. Instead, calculate during render: `const filtered = items.filter(i => i.active)`. See examples.md#avoiding-effects for more patterns."
 
 **Example Bad Response**:
 > "I think you should use useEffect... maybe?" ❌
@@ -934,7 +941,7 @@ const { register, handleSubmit, formState: { errors } } = useForm({
 
 **Self-Test**: Can you answer all Level 1 questions without looking?
 - ✅ Yes → You understand the basics
-- ❌ No → Review [SKILL.md](./SKILL.md) and [SKILL-QUICK-REFERENCE.md](./SKILL-QUICK-REFERENCE.md)
+- ❌ No → Review the 7 core skills and [SKILL-QUICK-REFERENCE.md](./SKILL-QUICK-REFERENCE.md)
 
 **Code Test**: Can you write code for all Level 2 scenarios?
 - ✅ Yes → You can apply the knowledge
