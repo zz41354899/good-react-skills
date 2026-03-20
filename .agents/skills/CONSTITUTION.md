@@ -40,9 +40,9 @@ After consulting documentation:
 - [ ] Would this pass the [Code Review Checklist](#-code-review-checklist)?
 
 ### Step 4: If Still Unsure
-1. Check [INDEX.md](./INDEX.md) for the specific topic
-2. Review related examples in [examples.md](./references/examples.md)
-3. Consult the decision trees below
+1. Review related examples in [examples.md](./references/examples.md)
+2. Consult the decision trees below
+3. Use `Ctrl+F` to search this document
 4. **Never guess** - always verify with documentation
 
 **Golden Rule**: When in doubt, consult the documentation. It's better to take 30 seconds to verify than to provide incorrect guidance.
@@ -50,8 +50,6 @@ After consulting documentation:
 ---
 
 ## 📖 Navigation
-
-**New to this guide?** → Start with [`AI-LEARNING-GUIDE.md`](./AI-LEARNING-GUIDE.md) for the complete learning path.
 
 **Quick lookup?** → Use the table of contents below or `Ctrl+F` to search.
 
@@ -724,7 +722,7 @@ Do I know the answer with 100% certainty?
               ├─ Performance? → Check [Performance](#-performance-guidelines)
               ├─ Testing? → Check [Testing](#-testing-principles)
               ├─ Server/Client? → Check decision tree below
-              └─ Other? → Check [INDEX.md](./INDEX.md)
+              └─ Other? → Use Ctrl+F to search
 ```
 
 **After consulting documentation**:
@@ -936,7 +934,7 @@ const { register, handleSubmit, formState: { errors } } = useForm({
 
 **Self-Test**: Can you answer all Level 1 questions without looking?
 - ✅ Yes → You understand the basics
-- ❌ No → Review [SKILL.md](./SKILL.md) and [AI-LEARNING-GUIDE.md](./AI-LEARNING-GUIDE.md)
+- ❌ No → Review [SKILL.md](./SKILL.md) and [SKILL-QUICK-REFERENCE.md](./SKILL-QUICK-REFERENCE.md)
 
 **Code Test**: Can you write code for all Level 2 scenarios?
 - ✅ Yes → You can apply the knowledge

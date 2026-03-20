@@ -10,9 +10,7 @@
 ├── README.md                    # This file
 ├── SKILL.md                     # Main skill overview
 ├── SKILL-QUICK-REFERENCE.md     # Quick reference guide
-├── AI-LEARNING-GUIDE.md         # 5-week learning path
 ├── CONSTITUTION.md              # Complete reference
-├── INDEX.md                     # Master index
 │
 ├── naming/                      # Naming conventions
 │   └── SKILL.md
@@ -57,8 +55,7 @@
 
 - **SKILL-QUICK-REFERENCE.md** - Quick reference for rapid lookup
 - **CONSTITUTION.md** - Complete reference guide with all principles
-- **AI-LEARNING-GUIDE.md** - Structured 5-week learning path
-- **INDEX.md** - Master index for finding topics
+- **SKILL.md** - Main skill overview
 
 ## 📖 Reference Documentation
 
@@ -80,14 +77,14 @@ All detailed guides are in `references/`:
 
 1. **Quick lookup**: Use slash commands (e.g., `/check-naming`)
 2. **Uncertain**: Follow uncertainty protocol in CONSTITUTION.md
-3. **Learning**: Follow AI-LEARNING-GUIDE.md for structured learning
+3. **Reference**: Check SKILL-QUICK-REFERENCE.md for quick answers
 4. **Examples**: Check references/examples.md for code
 
 ### For Developers
 
-1. Start with **AI-LEARNING-GUIDE.md** for learning path
-2. Use **SKILL-QUICK-REFERENCE.md** for quick reference
-3. Consult **CONSTITUTION.md** for complete guidance
+1. Use **SKILL-QUICK-REFERENCE.md** for quick reference
+2. Consult **CONSTITUTION.md** for complete guidance
+3. Check **SKILL.md** for skill overview
 4. Copy code from **references/examples.md**
 
 ## 🔗 Related
