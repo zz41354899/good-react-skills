@@ -24,15 +24,15 @@
     "skills",
     "best-practices"
   ],
-  "author": "Your Name",
+  "author": "zz41354899",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/good-react-skills.git"
+    "url": "https://github.com/zz41354899/good-react-skills.git"
   },
-  "homepage": "https://github.com/yourusername/good-react-skills#readme",
+  "homepage": "https://github.com/zz41354899/good-react-skills#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/good-react-skills/issues"
+    "url": "https://github.com/zz41354899/good-react-skills/issues"
   },
   "engines": {
     "node": ">=14.0.0"
@@ -40,6 +40,7 @@
   "files": [
     "skills/",
     "lib/",
+    ".agentskills/",
     "install.js",
     "README.md",
     "LICENSE"
