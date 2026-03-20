@@ -21,6 +21,43 @@
       "**/*.js"
     ]
   },
+  "slashCommands": [
+    {
+      "command": "/check-naming",
+      "description": "Naming conventions",
+      "skillPath": "naming/SKILL.md"
+    },
+    {
+      "command": "/form-validation",
+      "description": "Form validation patterns",
+      "skillPath": "forms/SKILL.md"
+    },
+    {
+      "command": "/should-use-effect",
+      "description": "useEffect decision tree",
+      "skillPath": "useeffect/SKILL.md"
+    },
+    {
+      "command": "/state-management",
+      "description": "State management guide",
+      "skillPath": "state-management/SKILL.md"
+    },
+    {
+      "command": "/data-fetching",
+      "description": "Data fetching best practices",
+      "skillPath": "data-fetching/SKILL.md"
+    },
+    {
+      "command": "/server-or-client",
+      "description": "Server/Client component decision",
+      "skillPath": "nextjs/SKILL.md"
+    },
+    {
+      "command": "/typescript-error",
+      "description": "TypeScript error solutions",
+      "skillPath": "typescript/SKILL.md"
+    }
+  ],
   "instructions": {
     "primary": "Follow the principles and patterns defined in CONSTITUTION.md",
     "onUncertainty": "When uncertain about any React concept, consult the documentation using the uncertainty protocol defined in CONSTITUTION.md",

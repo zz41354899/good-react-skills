@@ -6,15 +6,43 @@
   "workflows": {
     "enabled": true,
     "directory": ".windsurf/workflows",
-    "commands": {
-      "/check-naming": "check-naming.md",
-      "/form-validation": "form-validation.md",
-      "/should-use-effect": "should-use-effect.md",
-      "/state-management": "state-management.md",
-      "/data-fetching": "data-fetching.md",
-      "/server-or-client": "server-or-client.md",
-      "/typescript-error": "typescript-error.md"
-    }
+    "commands": [
+      {
+        "command": "/check-naming",
+        "description": "Naming conventions",
+        "file": "check-naming.md"
+      },
+      {
+        "command": "/form-validation",
+        "description": "Form validation patterns",
+        "file": "form-validation.md"
+      },
+      {
+        "command": "/should-use-effect",
+        "description": "useEffect decision tree",
+        "file": "should-use-effect.md"
+      },
+      {
+        "command": "/state-management",
+        "description": "State management guide",
+        "file": "state-management.md"
+      },
+      {
+        "command": "/data-fetching",
+        "description": "Data fetching best practices",
+        "file": "data-fetching.md"
+      },
+      {
+        "command": "/server-or-client",
+        "description": "Server/Client component decision",
+        "file": "server-or-client.md"
+      },
+      {
+        "command": "/typescript-error",
+        "description": "TypeScript error solutions",
+        "file": "typescript-error.md"
+      }
+    ]
   },
   "language": {
     "documentation": "English",
