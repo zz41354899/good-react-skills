@@ -353,7 +353,7 @@ class SkillInstaller {
 
     // Common checks for all agents - check in user's project
     const userSkillsDir = path.join(process.cwd(), '.agents', 'skills');
-    const checks = [
+    const commonChecks = [
       { name: 'Skills directory', path: userSkillsDir },
       { name: 'CONSTITUTION.md', path: path.join(userSkillsDir, 'CONSTITUTION.md') },
       { name: 'SKILL-QUICK-REFERENCE.md', path: path.join(userSkillsDir, 'SKILL-QUICK-REFERENCE.md') },
