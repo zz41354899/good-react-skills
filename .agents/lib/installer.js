@@ -431,7 +431,11 @@ class SkillInstaller {
       console.log('   🎯 Cursor:');
       console.log('      1. Cursor will auto-detect .agentskills/cursor.json');
       console.log('      2. Skills available in React/TypeScript files');
-      console.log('      3. Use slash commands: /check-naming, /form-validation\n');
+      console.log('      3. Use slash commands:');
+      console.log('         /check-naming, /form-validation, /should-use-effect');
+      console.log('         /state-management, /data-fetching, /server-or-client');
+      console.log('         /typescript-error');
+      console.log('      4. Read .agents/skills/CONSTITUTION.md for complete guide\n');
     }
 
     if (agentsToShow.includes('windsurf') || agent === 'windsurf') {
